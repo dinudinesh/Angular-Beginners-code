@@ -1,12 +1,9 @@
-import { enableProdMode } from '@angular/core';
+
+// platformBrowserDynamic is a function used to bootstrap an Angular application.
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+// Custom module which we have created
+import { FirstModule } from './app/app.module';
 
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+// Render application using AppModule. 
+platformBrowserDynamic().bootstrapModule(FirstModule);
