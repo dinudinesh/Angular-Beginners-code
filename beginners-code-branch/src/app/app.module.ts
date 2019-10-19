@@ -4,11 +4,12 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
 // Custom component which we have created
-import { HelloAngular } from "./app.component"
+import { HelloAngular } from "./app.component";
+import { SimpleStyleDirective } from './customDirective/simple-style.directive';
 
 // An NgModule is a class marked by the @NgModule decorator.
 @NgModule({
-    declarations: [HelloAngular], // List of all components within the module
+    declarations: [HelloAngular, SimpleStyleDirective], // List of all components within the module
     imports: [BrowserModule],     // Module needed for running Angular websites. 
     bootstrap: [HelloAngular]     // Bootstrap: Identifies the root component that Angular should bootstrap when it starts the application.
 })

@@ -1,7 +1,6 @@
 // importing core module /package for component.
 // The line below is saying we want to import the Component code from the module @angular/core.
 import { Component } from "@angular/core";
-
 // A decorator adds more behavior to our class from outside the class. It must be declared immediately before the class. [Components are the most basic UI building block of an Angular app.] * Decorators are a typeScript feature.
 @Component({
     //A component has a selector, template, style and other properties, using which it specifies the metadata required to process the component.
@@ -33,4 +32,13 @@ export class HelloAngular {
         'description': "Key panel for Nokia",
         'inStock': 0
     }];
+
+    totalMobPrts() {
+        let sum = 0;
+        for (let mobPart of this.mobParts) {
+            sum += mobPart.inStock;
+        }
+        return sum;
+    }
 }
+
