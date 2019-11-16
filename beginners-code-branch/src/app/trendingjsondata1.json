@@ -1,0 +1,76 @@
+{
+  "trendingjsondata": [
+    {
+      "id": 1001,
+      "trandinglinks": "/mobiles",
+      "trandingthumb": "./assets/images/p1.jpg",
+      "trandingitemprice": "1900",
+      "tradingitemdesc": "There are many variations of passages",
+      "trandingitemduration": "1 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1002,
+      "trandinglinks": "/mobiles",
+      "trandingthumb": "./assets/images/p2.jpg",
+      "trandingitemprice": "399",
+      "tradingitemdesc": "Lorem Ipsum is simply dummy",
+      "trandingitemduration": "3 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1003,
+      "trandinglinks": "/mobiles",
+      "trandingthumb": "./assets/images/p3.jpg",
+      "trandingitemprice": "199",
+      "tradingitemdesc": "Lorem Ipsum is simply dummy",
+      "trandingitemduration": "8 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1004,
+      "trandinglinks": "/mobiles",
+      "trandingthumb": "./assets/images/p4.jpg",
+      "trandingitemprice": "159",
+      "tradingitemdesc": "passage of Lorem Ipsum you need to be",
+      "trandingitemduration": "19 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1005,
+      "trandinglinks": "/cars",
+      "trandingthumb": "./assets/images/p5.jpg",
+      "trandingitemprice": "1599",
+      "tradingitemdesc": "There are many variations of passages",
+      "trandingitemduration": "1 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1006,
+      "trandinglinks": "/cars",
+      "trandingthumb": "./assets/images/p6.jpg",
+      "trandingitemprice": "1099",
+      "tradingitemdesc": "passage of Lorem Ipsum you need to be",
+      "trandingitemduration": "1 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1007,
+      "trandinglinks": "/cars",
+      "trandingthumb": "./assets/images/p7.jpg",
+      "trandingitemprice": "1399",
+      "tradingitemdesc": "There are many variations of passages",
+      "trandingitemduration": "4 hour ago",
+      "clsssVar": true
+    },
+    {
+      "id": 1008,
+      "trandinglinks": "/cars",
+      "trandingthumb": "./assets/images/p8.jpg",
+      "trandingitemprice": "5099",
+      "tradingitemdesc": "passage of Lorem Ipsum you need to be",
+      "trandingitemduration": "22 hour ago",
+      "clsssVar": true
+    }
+  ]
+}
